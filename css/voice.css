@@ -1,0 +1,51 @@
+@import url(base.css);
+.bg{
+    background:#e6e6e6;
+    overflow: hidden;
+}
+.img1{
+     width: 4.06rem;
+     height: 1.79rem;
+     display: block;
+     margin:2.44rem auto 1.72rem;
+ }
+span{
+    display: block;
+    width: 1.84rem;
+    height: .22rem;
+    font-size: .22rem;
+    color: rgba(0,0,0,.4);
+    margin:1.48rem auto .17rem;
+}
+p{
+    width: 2.95rem;
+    height: .22rem;
+    font-size: .22rem;
+    color: rgba(0,0,0,.4);
+    margin:0 auto 4.38rem;
+}
+
+.img2 {
+    width: 7.5rem;
+    height: 5.2rem;
+    display: block;
+}
+.word{
+    width: 3.67rem;
+    height: .7rem;
+    background-image: -webkit-linear-gradient(left,#ffad37,#ffce37);
+    border-radius: .35rem;
+    border: none;
+    box-shadow:0px 10px 40px 0px  rgba(255,192,55,0.4);
+    position: absolute;
+    bottom:1.94rem;
+    left:1.94rem;
+}
+.word span{
+    display: block;
+    width: 1rem;
+    height: .23rem;
+    margin: 0 auto .1rem;
+    font-size: .23rem;
+    color:#fff0d9;
+}

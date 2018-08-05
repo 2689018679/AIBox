@@ -1,0 +1,48 @@
+@import url(base.css);
+
+.xbg{
+    width: 5.8rem;
+    height: 4.1rem;
+    margin: 4.08rem 0 0 1.03rem;
+}
+.check{
+    width: 1.08rem;
+    height: 1.08rem;
+    display: block;
+    position: absolute;
+    left: 3.21rem;
+    top: 4.85rem;
+}
+span{
+    display: block;
+    width: 2.8rem;
+    height: .24rem;
+    font-size: .24rem;
+    color: #000000;
+    position: absolute;
+    left: 2.62rem;
+    top: 6.03rem;
+}
+.button1{
+    width: 1.64rem;
+    height: .68rem;
+    border-radius: .35rem;
+    border: none;
+    color: #fff;
+    background-image:-webkit-linear-gradient(bottom,#33d07d,#3de43d);
+    box-shadow:0px 10px 40px 0px  rgba(57,219,88,0.4);
+    position: absolute;
+    left: 2.1rem;
+    top: 6.5rem;
+}
+.button2{
+    width: 1.64rem;
+    height: .68rem;
+    border-radius: .35rem;
+    border: none;
+    color: #3be04a;
+    background:#ececec;
+    position: absolute;
+    left: 4.1rem;
+    top: 6.5rem;
+}

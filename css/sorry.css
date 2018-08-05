@@ -1,0 +1,49 @@
+@import url(base.css);
+.bg{
+    background-image: -webkit-linear-gradient(bottom,#713d3e,#cf1313);
+    overflow: hidden;
+}
+span{
+    display: block;
+    width: .91rem;
+    height: .28rem;
+    font-size: .28rem;
+    color: #fefefe;
+    margin:1.46rem auto .23rem;
+}
+p{
+    width: 2rem;
+    height: .22rem;
+    font-size: .22rem;
+    color: #fefefe;
+    margin:0 auto;
+}
+.img1{
+    width: 3.81rem;
+    height: 3.6rem;
+    display: block;
+    margin:.72rem auto 1.6rem;
+}
+.img2 {
+    width: 7.5rem;
+    height: 5.2rem;
+    display: block;
+}
+.word{
+    width: 3.67rem;
+    height: .7rem;
+    background:#e9e9e9;
+    border-radius: .35rem;
+    border: none;
+    position: absolute;
+    bottom:1.94rem;
+    left:1.94rem;
+}
+.word span{
+    display: block;
+    width: 1rem;
+    height: .23rem;
+    margin: 0 auto .1rem;
+    font-size: .23rem;
+    color:#fff;
+}
