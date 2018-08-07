@@ -1,6 +1,6 @@
 @import url(base.css);
 .bg{
-    background:#e6e6e6;
+    background:url("../img/bg.png");
     overflow: hidden;
 }
 .img1{

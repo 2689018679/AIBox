@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin: 0;
+    list-style: none;
 }
 .bg{
     position: absolute;
@@ -12,4 +13,56 @@
 }
 a{
     text-decoration: none;
+}
+@keyframes circular{
+		from{transform: scale(1,1);}
+		to{transform: scale(1.25,1.25);}
+}
+@keyframes circular1{
+		from{transform: scale(1,1);}
+		to{transform: scale(1.5,1.5);}
+}
+
+ul{
+    width: 2.24rem;
+    height: 2.24rem;
+    margin:2.22rem 0 1.3rem 2.63rem;
+    position: relative;
+}
+.facee{
+	width: .66rem;
+    height: .66rem;
+    border-radius: 50%;
+    background: #33cb47;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.8rem;
+    z-index: 9;
+}
+.facee1{
+	width: 1.24rem;
+    height: .66rem;
+    border-radius: .33rem;
+    background: #33cb47;
+    position: absolute;
+    top: 1.1rem;
+    left: .5rem;
+    z-index: 9;
+}
+.circular{
+     width: 2.24rem;
+     height: 2.24rem;
+     border-radius: 1.12rem;
+     background: rgba(220, 240, 231, 1.0);
+     position: absolute;
+     top: 0;
+     left: 0;
+}
+.circular1{
+    background: rgba(220, 240, 231, 0.4);
+    animation: circular 2s infinite;
+}
+.circular2{
+     background: rgba(220, 240, 231, 0.3);
+    animation: circular1 2s infinite;
 }
